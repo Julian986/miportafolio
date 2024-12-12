@@ -1,162 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
     <!-- Este archivo que descargamos nos sirve para reiniciar los estilos css para que en todos los navegadores se vea igual -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>Portafolio de Julián Sánchez</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="contenedor">
-            <nav class="menu">
-                <a href="#acerca">Acerca de</a>
-                <a href="#trabajos">Trabajos</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
+      <div class="contenedor">
+        <nav class="menu">
+          <a href="#acerca">Acerca de</a>
+          <a href="#trabajos">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
 
-            <div class="contenedor-texto">
-                <div class="texto">
-                    <h1 class="nombre">Julián Sánchez</h1>
-                    <h2 class="profesion">Desarrollador Web</h2>
-                </div>
-            </div>
+        <div class="contenedor-texto">
+          <div class="texto">
+            <h1 class="nombre">Alvaro Melodía</h1>
+            <h2 class="profesion">Profesor de musica</h2>
+          </div>
         </div>
+      </div>
     </header>
 
     <section class="main">
-        <section class="acerca-de">
-            <div class="contenedor">  
-                <div class="foto">
-                    <img src="img/yo.jpeg" width="115" alt="El programador juli">  
-                </div>
+      <section class="acerca-de">
+        <div class="contenedor">
+          <div class="foto">
+            <!-- <img src="img/yo.jpeg" width="115" alt="El programador juli">  -->
+            <img src="./img/alvaro.avif" alt="" width="125" />
+          </div>
 
-                <div class="texto">
-                    <h3 class="titulo" id="acerca">Acerca de</h3>
-                    <p>Es un <span class="bold">ingeniero en computadores</span> , programador, filántropo y emprendedor tecnológico argentino. En 1976, cofundó <span class="bold">Apple Inc</span>., que más tarde se convirtió en la compañía de tecnología informática más grande del mundo por ingresos y la compañía más grande del mundo por capitalización de mercado.</p>
-                </div>     
+          <div class="texto">
+            <h3 class="titulo" id="acerca">Acerca de</h3>
+            <p>
+              ¡Hola! Soy Álvaro Melodía, un
+              <span class="bold">apasionado de la música</span> con más de 15
+              años de experiencia en enseñanza e interpretación musical. A lo
+              largo de mi carrera, he tenido el privilegio de ayudar a
+              estudiantes de todas las edades a descubrir y desarrollar su
+              talento musical, guiándolos en un viaje lleno de creatividad,
+              técnica y expresión artística. Mi formación incluye estudios en el
+              Conservatorio de Música Harmonia de Barcelona con especialización
+              en la bateria y composición musical. Además, he participado en
+              conciertos y festivales internacionales como el Festival de Música
+              de Viena y el Encuentro Latinoamericano de Pianistas, que me han
+              permitido enriquecer mi experiencia y compartir mi amor por la
+              música con audiencias diversas. Mis clases están diseñadas para
+              adaptarse a las necesidades y objetivos de cada estudiante, ya sea
+              que deseen aprender desde cero, perfeccionar su técnica o
+              prepararse para exámenes y presentaciones. Trabajo con
+              instrumentos como piano, guitarra y violín, y abarco géneros que
+              van desde música clásica hasta jazz y pop contemporáneo. Creo
+              firmemente que la música no solo es una habilidad técnica, sino
+              una forma de expresión que nos conecta con nosotros mismos y con
+              el mundo. Mi objetivo es que mis estudiantes no solo aprendan a
+              tocar, sino que también sientan la música y la disfruten
+              plenamente. Si estás buscando un profesor comprometido, paciente y
+              motivador, estaré encantado de acompañarte en este maravilloso
+              camino musical. ¡Hagamos música juntos!
+              <!--    Es un <span class="bold">ingeniero en computadores</span> ,
+              programador, filántropo y emprendedor tecnológico argentino. En
+              1976, cofundó <span class="bold">Apple Inc</span>., que más tarde
+              se convirtió en la compañía de tecnología informática más grande
+              del mundo por ingresos y la compañía más grande del mundo por
+              capitalización de mercado. -->
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trabajos">
+        <div class="contenedor">
+          <h3 class="titulo" id="trabajos">Habilidades</h3>
+          <div class="contenedor-trabajos">
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/1.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Guitarra Eléctrica</p>
+                <p class="categoria">Instrumentos de Cuerda</p>
+              </div>
             </div>
-        </section>
 
-        <section class="trabajos"> 
-            <div class="contenedor">
-                <h3 class="titulo" id="trabajos">Trabajos</h3>
-                <div class="contenedor-trabajos">
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/1.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/2.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/3.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/4.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/5.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/6.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/7.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/8.jpg" alt="">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">Lorem Ipsum</p>
-                            <p class="categoria">HTML - CSS - PHP</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/2.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Piano</p>
+                <p class="categoria">Instrumentos de Teclado</p>
+              </div>
             </div>
-        </section>
-    </section>  
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/3.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Violín</p>
+                <p class="categoria">Instrumentos de Cuerda</p>
+              </div>
+            </div>
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/4.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Slide Guitar</p>
+                <p class="categoria">Instrumentos de Cuerda</p>
+              </div>
+            </div>
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/5.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Batería</p>
+                <p class="categoria">Instrumentos de Percusión</p>
+              </div>
+            </div>
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/6.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Trompeta</p>
+                <p class="categoria">Instrumentos de Viento</p>
+              </div>
+            </div>
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/7.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Arpa</p>
+                <p class="categoria">Instrumentos de Cuerda</p>
+              </div>
+            </div>
+
+            <div class="trabajo">
+              <div class="thumb">
+                <img src="img/trabajos/8.jpg" alt="" />
+              </div>
+              <div class="descripcion">
+                <p class="nombre">Tambor</p>
+                <p class="categoria">Instrumentos de Percusión</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
 
     <footer>
-        <section class="contacto">
-            <div class="contenedor">
-                <h3 id="contacto">Contacto</h3>
-                <form action="" class="formulario">
-                   <!--  required hace que este input sea obligatorio -->
-                    <input type="text" name="nombre" placeholder="Nombre" required>
-                    <input type="email" name="correo" placeholder="Correo" required>
-                    <textarea name="Mensaje" placeholder="Mensaje"></textarea>
-                    <input type="submit" class="boton" value="Enviar">
-                </form>
-            </div>
-        </section>
+      <section class="contacto">
+        <div class="contenedor">
+          <h3 id="contacto">Contacto</h3>
+          <form action="" class="formulario">
+            <!--  required hace que este input sea obligatorio -->
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="email" name="correo" placeholder="Correo" required />
+            <textarea name="Mensaje" placeholder="Mensaje"></textarea>
+            <input type="submit" class="boton" value="Enviar" />
+          </form>
+        </div>
+      </section>
 
-        <section class="redes-sociales">
-            <div class="contenedor">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="github"><i class="fa fa-github"></i></a>
-                <a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-            </div>
-        </section>
+      <section class="redes-sociales">
+        <div class="contenedor">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="github"><i class="fa fa-github"></i></a>
+          <a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/juli.dev1/"
+            class="instagram"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </div>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
